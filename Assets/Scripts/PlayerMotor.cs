@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Diagnostics;
 using UnityEngine;
 
@@ -18,6 +19,7 @@ public class PlayerMotor : MonoBehaviour
     float crouchTimer = 1;
     bool lerpCrouch = false;
     bool sprinting = false;
+    
 
 
     // Start is called before the first frame update
