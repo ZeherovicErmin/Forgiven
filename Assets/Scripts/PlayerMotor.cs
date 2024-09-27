@@ -14,7 +14,7 @@ public class PlayerMotor : MonoBehaviour
     private bool isGrounded;
     public float speed = 5f;
     public float gravity = -9.8f;
-    public float jumpHeight = 1.5f;
+    public float jumpHeight = 1.0f;
     bool crouching = false;
     float crouchTimer = 1;
     bool lerpCrouch = false;
