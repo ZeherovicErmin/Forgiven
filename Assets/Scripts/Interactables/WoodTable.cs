@@ -17,6 +17,8 @@ public class WoodTable : Interactable
         
     }
 
+    // Function where the interaction is designed utilizing code
+
     protected override void Interact()
     {
         UnityEngine.Debug.Log("Interacted with " + gameObject.name);
