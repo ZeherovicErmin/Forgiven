@@ -3,7 +3,42 @@ guid: fe08f7f0fcb288a4f8eafa7399cedf56
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BarTexture
+    second: {fileID: 2100000, guid: 412c0ba4d60f23a4d91748c92672c119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 412c0ba4d60f23a4d91748c92672c119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 412c0ba4d60f23a4d91748c92672c119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 412c0ba4d60f23a4d91748c92672c119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 412c0ba4d60f23a4d91748c92672c119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 412c0ba4d60f23a4d91748c92672c119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PrisonDoor
+    second: {fileID: 2100000, guid: 412c0ba4d60f23a4d91748c92672c119, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
