@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Textured
+  m_Name: Snake
   m_Shader: {fileID: 4800000, guid: 055eab4e84dc70a47ae75b3125a22de6, type: 3}
-  m_Parent: {fileID: 2100000, guid: 64ccbca3e094d4b4eb1ad59316daec56, type: 2}
+  m_Parent: {fileID: 2100000, guid: 412c0ba4d60f23a4d91748c92672c119, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _BRDF_MODE_LAMBERT
@@ -17,7 +17,7 @@ Material:
   - _LIGHTING_BAKED_ON
   - _LIGHTING_DYNAMIC_ON
   - _SHADING_EVALUATION_MODE_PER_VERTEX
-  - _TEXTURE_FILTER_MODE_POINT
+  - _TEXTURE_FILTER_MODE_TEXTURE_IMPORT_SETTINGS
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -31,12 +31,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 76c51e59fe303614e875bdb84e2e7379, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2dabdf844397aff45ad3fbdcd1d42f78, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _TextureFilterMode: 1
-    m_Colors:
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TextureFilterMode: 0
+    m_Colors: []
   m_BuildTextureStacks: []

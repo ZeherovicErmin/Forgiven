@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fe236e865c4c57447b3f1df3aa3b255e
+guid: e7222cdbf87ea2f46a1dc17077b8b2f0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: PrisonFloor
-    second: {fileID: 2100000, guid: 62b660d27036edb44aa28a69b53854ee, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: PrisonWall
-    second: {fileID: 2100000, guid: 26ece9f31b07024458d9d97071a3f00d, type: 2}
+      name: Rusted Door
+    second: {fileID: 2100000, guid: 31a55e2425769ff43bdcd53af020e23c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

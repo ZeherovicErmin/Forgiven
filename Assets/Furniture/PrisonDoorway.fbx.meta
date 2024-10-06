@@ -1,9 +1,34 @@
 fileFormatVersion: 2
-guid: a83c255c20eb73b46af59b2e102a4749
+guid: 201c0dd31d8544c408fbf0eeff101e9d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorOpening
+    second: {fileID: 2100000, guid: 26ece9f31b07024458d9d97071a3f00d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 26ece9f31b07024458d9d97071a3f00d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 26ece9f31b07024458d9d97071a3f00d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PrisonFloor
+    second: {fileID: 2100000, guid: 62b660d27036edb44aa28a69b53854ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PrisonWall
+    second: {fileID: 2100000, guid: af94d7921ed1ebd4d8db1db18732c643, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
