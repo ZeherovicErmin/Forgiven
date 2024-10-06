@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
-public class Interactable : MonoBehaviour
+public abstract class Interactable : MonoBehaviour
 {
+
+
+    // Add or remove an InteractionEvent component to this game object
+    public bool useEvents;
 
     // Creating a message that displays when the player is looking at an interactable
     public string promptMessage;
