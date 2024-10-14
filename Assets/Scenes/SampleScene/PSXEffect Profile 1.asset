@@ -16,6 +16,37 @@ MonoBehaviour:
   isPSXQualityEnabled:
     m_OverrideState: 1
     m_Value: 1
+--- !u!114 &-1574584757283242158
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4315c5d81c1274fb8120ba49e62c21, type: 3}
+  m_Name: LightingVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  lightingIsEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  bakedLightingMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+  vertexColorLightingMultiplier:
+    m_OverrideState: 0
+    m_Value: 0
+  dynamicLightingMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+  dynamicLightsMaxCount:
+    m_OverrideState: 0
+    m_Value: 256
+  dynamicLightsMaxPerObjectCount:
+    m_OverrideState: 0
+    m_Value: 4
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31,6 +62,7 @@ MonoBehaviour:
   components:
   - {fileID: -2490199269532126269}
   - {fileID: 5611302926922263864}
+  - {fileID: -1574584757283242158}
 --- !u!114 &5611302926922263864
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -46,7 +78,7 @@ MonoBehaviour:
   active: 1
   isEnabled:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   bloom:
     m_OverrideState: 0
     m_Value: 0.0625
@@ -61,10 +93,10 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   scanlineSharpness:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.5
   imageSharpness:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.5
   bloomSharpnessX:
     m_OverrideState: 0
@@ -73,22 +105,22 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   noiseIntensity:
-    m_OverrideState: 0
-    m_Value: 0.025
+    m_OverrideState: 1
+    m_Value: 0
   noiseSaturation:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   grateMaskIntensityMin:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   grateMaskIntensityMax:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   barrelDistortionX:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   barrelDistortionY:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   vignette:
     m_OverrideState: 0
