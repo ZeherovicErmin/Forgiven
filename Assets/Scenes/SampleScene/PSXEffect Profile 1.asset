@@ -46,7 +46,7 @@ MonoBehaviour:
   active: 1
   isEnabled:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   bloom:
     m_OverrideState: 0
     m_Value: 0.0625
@@ -73,22 +73,22 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   noiseIntensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.025
   noiseSaturation:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   grateMaskIntensityMin:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   grateMaskIntensityMax:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   barrelDistortionX:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   barrelDistortionY:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   vignette:
     m_OverrideState: 0
